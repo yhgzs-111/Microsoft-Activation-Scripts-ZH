@@ -4,7 +4,7 @@ MAS (Microsoft Activation Scripts)的汉化版，由Deepseek-R1翻译+人工校�
 原始仓库：https://github.com/massgravel/Microsoft-Activation-Scripts
 
 # 下载
-https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs/heads/main/MAS_AIO_ZH.cmd
+https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs/heads/main/MAS-ZH/All-In-One-Version-KL/MAS_AIO_ZH.cmd
 
 # 注意事项
 
