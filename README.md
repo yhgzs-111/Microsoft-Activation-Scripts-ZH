@@ -1,6 +1,6 @@
 <p align="center"><img src="https://massgrave.dev/img/logo_small.png" alt="MAS Logo"></p>
 
-<h1 align="center">**Microsoft  Activation  Scripts (MAS)**</h1>
+<h1 align="center">Microsoft  Activation  Scripts (MAS)</h1>
 
 <p align="center">一款开源的 Windows 与 Office 激活工具，支持 HWID、Ohook、TSforge、KMS38 及在线 KMS 等多种激活方式，并提供高级故障排除功能。</p>
 
