@@ -38,7 +38,11 @@ https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs
 ---
 
 <div align="center">
-	
+
+### 鸣谢
+
+[**cmontage**](https://github.com/cmontage)为本仓库README提供模板
+
 ### 官方原版主页 - [https://massgrave.dev/](https://massgrave.dev/)
   
 [![1.1]][1]
