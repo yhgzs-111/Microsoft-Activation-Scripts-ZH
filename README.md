@@ -1,13 +1,69 @@
-# 简介
-MAS (Microsoft Activation Scripts)的汉化版，由Deepseek-R1翻译+人工校对。
+<p align="center"><img src="https://massgrave.dev/img/logo_small.png" alt="MAS Logo"></p>
 
-原始仓库：https://github.com/massgravel/Microsoft-Activation-Scripts
+<h1 align="center">Microsoft  Activation  Scripts (MAS)</h1>
 
-# 下载
+<p align="center">一款开源的 Windows 与 Office 激活工具，支持 HWID、Ohook、TSforge、KMS38 及在线 KMS 等多种激活方式，并提供高级故障排除功能。</p>
+
+<p align="center">
+    <a href="https://github.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/stargazers"><img src="https://img.shields.io/github/stars/yhgzs-111/Microsoft-Activation-Scripts-ZH?style=for-the-badge&logo=github" alt="GitHub stars"></a>
+    <a href="https://github.com/yhgzs-111/Microsoft-Activation-Scripts-ZH"><img src="https://img.shields.io/github/repo-size/yhgzs-111/Microsoft-Activation-Scripts-ZH?style=for-the-badge&logo=github" alt="GitHub repo size"></a>
+    <a href="https://github.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/blob/main/LICENSE"><img src="https://img.shields.io/github/license/yhgzs-111/Microsoft-Activation-Scripts-ZH?style=for-the-badge" alt="GitHub license"></a>
+</p>
+
+<hr>
+
+Windows 和 Office 激活工具 MAS (Microsoft-Activation-Scripts) 的汉化版，在不改变机器码的情况下可永久激活 (视激活方式而定) 。
+
+ **注：该汉化由Deepseek-R1进行初步汉化+我本人校对完成。**
+
+### 下载: 
+
 https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs/heads/main/MAS_AIO_ZH.cmd
 
-# 注意事项
+### 各个激活方法的特性
 
-请保持汉化版脚本文件编码为**ANSI**，如果更改编码格式可能会导致乱码。
+|          | HWID | Ohook  | Online KMS | TSforge (ZeroCID) | TSforge (StaticCID) | TSforge (KMS4k) |
+|:------:|:--------:|:-------:|:------------:|:-------------------:|:---------------------:|:-----------------:| 
+| 离线激活 |  ❌  |  ✅    |     ❌     |  ✅              |        ❌           |  ✅  |
+| 永久激活 |  ✅  |  ✅    |  ☑️<br>(180天/次)  |  ✅  |  ✅  |☑️<br>(至4083)
+| 不会在系统中留下文件来维持激活 |  ✅  |  ❌  |  ❌  |  ✅  |  ✅  |  ✅  |
+| 硬件更改后仍保留激活 |  ❌  |  ✅  |  ✅  |  ✅  |  ❌  |  ✅  |
+| 在同一硬件上的全新安装之间持续存在 |  ✅  |  ❌  |  ❌  |  ❌  |  ❌  |  ❌  |
+| 在 Windows 10 / 11 功能升级之间持续存在 |  ✅  |  ✅  |  ✅  |  ❌  |  ❌  |  ❌  |
 
-其他注意事项请参阅[原脚本官网](https://massgrave.dev/)。
+🔍 [了解更多特性信息](https://massgrave.dev/chart#user-content-fn-2) 
+
+🔍 [访问官方 Github 仓库 (MAS Source Code)](https://github.com/massgravel/Microsoft-Activation-Scripts?tab=readme-ov-file#download--how-to-use-it)
+
+---
+
+<div align="center">
+	
+### 官方原版主页 - [https://massgrave.dev/](https://massgrave.dev/)
+  
+[![1.1]][1]
+[![1.2]][2]
+[![1.3]][3]
+[![1.4]][4]
+[![1.5]][5]
+[![1.6]][6]
+[![1.7]][7]
+
+[1.1]: https://massgrave.dev/img/logo_discord.png (Chat with us without signup)
+[1.2]: https://massgrave.dev/img/logo_reddit.png (Reddit)
+[1.3]: https://massgrave.dev/img/logo_bluesky.png (Bluesky)
+[1.4]: https://massgrave.dev/img/logo_x.png (Twitter)
+
+[1.5]: https://massgrave.dev/img/logo_github.png (GitHub)
+[1.6]: https://massgrave.dev/img/logo_azuredevops.png (AzureDevOps)
+[1.7]: https://massgrave.dev/img/logo_gitea.png (Self-hosted Git)
+
+[1]: https://discord.gg/j2yFsV5ZVC
+[2]: https://www.reddit.com/r/MAS_Activator
+[3]: https://bsky.app/profile/massgrave.dev
+[4]: https://twitter.com/massgravel
+[5]: https://github.com/massgravel/Microsoft-Activation-Scripts
+[6]: https://dev.azure.com/massgrave/_git/Microsoft-Activation-Scripts
+[7]: https://git.activated.win/Microsoft-Activation-Scripts
+
+---
