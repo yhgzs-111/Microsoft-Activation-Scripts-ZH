@@ -37,13 +37,13 @@ Windows 和 Office 激活工具 **MAS (Microsoft-Activation-Scripts)** 的汉化
 - **Windows Defender** 有概率误删，使用前请关闭**实时保护**。
 
 ```
-irm https://github.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/raw/refs/heads/main/GETMASZH.ps1 | iex
+$w=New-Object System.Net.WebClient;$w.Encoding=[System.Text.Encoding]::GetEncoding('GB18030');iex($w.DownloadString('https://github.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/raw/refs/heads/main/GETMASZH.ps1'))
 ```
 
 **中国大陆加速**
 
 ```
-irm https://get.f0x.in/GETMASZH.ps1 | iex
+$w=New-Object System.Net.WebClient;$w.Encoding=[System.Text.Encoding]::GetEncoding('GB18030');iex($w.DownloadString('https://get.f0x.in/GETMASZH.ps1'))
 ```
 
 #### 离线使用: 
