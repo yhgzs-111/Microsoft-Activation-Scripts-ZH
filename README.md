@@ -1,6 +1,6 @@
 <p align="center"><img src="https://massgrave.dev/img/logo_small.png" alt="MAS Logo"></p>
 
-<h1 align="center">Microsoft  Activation  Scripts (MAS)</h1>
+<h1 align="center">**Microsoft  Activation  Scripts (MAS)**</h1>
 
 <p align="center">一款开源的 Windows 与 Office 激活工具，支持 HWID、Ohook、TSforge、KMS38 及在线 KMS 等多种激活方式，并提供高级故障排除功能。</p>
 
@@ -12,7 +12,7 @@
 
 <hr>
 
-Windows 和 Office 激活工具 MAS (Microsoft-Activation-Scripts) 的汉化版，在不改变机器码的情况下可永久激活 (视激活方式而定) 。
+Windows 和 Office 激活工具 **MAS (Microsoft-Activation-Scripts)** 的汉化版，在不改变机器码的情况下可永久激活 (视激活方式而定) 。
 
 **最新版本 (Latest Version)：3.12**
 
