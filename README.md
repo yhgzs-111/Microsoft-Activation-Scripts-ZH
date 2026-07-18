@@ -14,21 +14,23 @@
 
 Windows 和 Office 激活工具 MAS (Microsoft-Activation-Scripts) 的汉化版，在不改变机器码的情况下可永久激活 (视激活方式而定) 。
 
-### 汉化版简介
+### 汉化版注意事项
 
 **本汉化版本实现了MAS脚本的完整汉化，注释、交互提示等所有界面与代码细节均已中文化。既可用于日常激活操作，也便于深入研习MAS脚本的内在实现原理。**
 
 **该汉化版本由Deepseek-R1进行初步汉化+[我本人](https://github.com/yhgzs-111/)校对完成。**
 
 **由于不可抗力的编码因素，极少数界面提示或注释可能残留轻微乱码，但这完全不影响激活功能及脚本的正常运行。**
- 
+
+**有关脚本使用的更多信息，请参阅原脚本官网**[**massgrave.dev**](https://massgrave.dev/)。
+
 ### 使用
 
 #### 在线使用: 
 
-**打开 Powershell 输入命令即可使用**
+打开 **Powershell** 输入命令即可使用
 
-- **Windows Defender 有概率误删，使用前请关闭扫描。**
+- **Windows Defender** 有概率误删，使用前请关闭扫描。
 
 ```
 irm https://ghfast.top/https://github.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/raw/refs/heads/main/GETMASZH.ps1 | iex
