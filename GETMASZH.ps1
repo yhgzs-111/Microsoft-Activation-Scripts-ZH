@@ -81,8 +81,8 @@ if (-not $Parameters -and -not $args) {
         [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
     } catch {}
 
-    # 下载 URL（使用 ghfast 加速）
-    $downloadUrl = "https://ghfast.top/https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs/heads/main/MAS_AIO_ZH.cmd"
+    # 下载 URL
+    $downloadUrl = "https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs/heads/main/MAS_AIO_ZH.cmd"
     $fileName = "MAS_AIO_ZH.cmd"
 
     Write-Progress -Activity "下载 MAS 文件..." -Status "请稍等"
