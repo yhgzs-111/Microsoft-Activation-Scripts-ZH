@@ -21,9 +21,6 @@ param(
     [string[]]$Parameters
 )
 
-chcp 65001 > $null
-[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-
 # 若没有参数且没有 $args，显示帮助信息
 if (-not $Parameters -and -not $args) {
     Write-Host ''
