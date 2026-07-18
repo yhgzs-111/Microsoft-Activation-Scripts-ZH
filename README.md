@@ -31,7 +31,7 @@ https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs
 | 在同一硬件上的全新安装之间持续存在 |  ✅  |  ❌  |  ❌  |  ❌  |  ❌  |  ❌  |
 | 在 Windows 10 / 11 功能升级之间持续存在 |  ✅  |  ✅  |  ✅  |  ❌  |  ❌  |  ❌  |
 
-🔍 [了解更多特性信息](https://massgrave.dev/chart#user-content-fn-2) 
+🔍 [了解脚本更多特性](https://massgrave.dev/chart#user-content-fn-2) 
 
 🔍 [访问官方 Github 仓库 (MAS Source Code)](https://github.com/massgravel/Microsoft-Activation-Scripts?tab=readme-ov-file#download--how-to-use-it)
 
@@ -41,7 +41,7 @@ https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs
 
 ### 鸣谢
 
-[**cmontage**](https://github.com/cmontage)为本仓库README提供模板
+[**cmontage**](https://github.com/cmontage)为本仓库README提供模板，为本仓库结构和.ps1脚本提供借鉴。
 
 ### 官方原版主页 - [https://massgrave.dev/](https://massgrave.dev/)
   
