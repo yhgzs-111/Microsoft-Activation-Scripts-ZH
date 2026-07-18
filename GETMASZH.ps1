@@ -16,6 +16,9 @@
     ÏîÄ¿Ö÷Ò³: https://github.com/yhgzs-111/Microsoft-Activation-Scripts-ZH
 #>
 
+chcp 65001 > $null
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+
 param(
     [Parameter(ValueFromRemainingArguments = $true)]
     [string[]]$Parameters
