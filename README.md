@@ -8,6 +8,6 @@ https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs
 
 # 注意事项
 
-请保持汉化版脚本文件编码为ANSI，如果更改编码格式可能会导致乱码。
+请保持汉化版脚本文件编码为**ANSI**，如果更改编码格式可能会导致乱码。
 
 其他注意事项请参阅[原脚本官网](https://massgrave.dev/)。
