@@ -42,7 +42,7 @@ irm https://ghfast.top/https://github.com/yhgzs-111/Microsoft-Activation-Scripts
 
 #### 离线使用: 
 
-**注：本脚本部分功能仍需联网使用**
+**注：本脚本大部分功能仍需联网使用**
 
 下载后双击打开即可使用。如无法下载/打开，请关闭**Microsoft SmartScreen**。
 
