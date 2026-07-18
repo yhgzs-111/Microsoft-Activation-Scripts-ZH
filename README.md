@@ -15,10 +15,20 @@
 Windows 和 Office 激活工具 MAS (Microsoft-Activation-Scripts) 的汉化版，在不改变机器码的情况下可永久激活 (视激活方式而定) 。
 
  **注：该汉化由Deepseek-R1进行初步汉化+我本人校对完成。**
+ 
+### 使用
 
-### 下载: 
+**打开 Powershell 或 Terminal（终端）输入命令即可使用**
 
-https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs/heads/main/MAS_AIO_ZH.cmd
+- Windows Defender 有概率误删，使用前请关闭扫描
+- 此为本仓库汉化版使用命令，若该方法无法使用，可以在 Release 下载最新版的 cmd 文件打开即可使用
+```
+ irm https://ghfast.top/https://github.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/raw/refs/heads/main/GETMASZH.ps1 | iex
+```
+
+#### 下载汉化脚本源代码: 
+
+https://ghfast.top/https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs/heads/main/MAS_AIO_ZH.cmd
 
 ### 各个激活方法的特性
 
