@@ -1,20 +1,3 @@
-﻿<#
-.SYNOPSIS
-    启动 Microsoft Activation Scripts (MAS) 中文版 AIO 脚本（通过 ghproxy 加速下载）。
-.DESCRIPTION
-    从 https://github.com/yhgzs-111/Microsoft-Activation-Scripts-ZH 通过 ghproxy 代理
-    下载 MAS_AIO_ZH.cmd 并在 CMD 中执行，支持传递任意参数。
-.PARAMETER Parameters
-    传递给 MAS_AIO_ZH.cmd 的额外参数（使用剩余参数形式）。
-.EXAMPLE
-    .\mas-zh.ps1
-    直接运行，不带参数。
-.EXAMPLE
-    .\mas-zh.ps1 /kms 192.168.1.100
-    将参数 /kms 和 192.168.1.100 传递给 CMD 脚本。
-.LINK
-    项目主页: https://github.com/yhgzs-111/Microsoft-Activation-Scripts-ZH
-#>
 
 param(
     [Parameter(ValueFromRemainingArguments = $true)]
