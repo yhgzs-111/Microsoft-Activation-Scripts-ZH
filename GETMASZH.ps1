@@ -65,7 +65,7 @@ if (-not $Parameters -and -not $args) {
     } catch {}
 
     # 下载 URL
-    $downloadUrl = "https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs/heads/main/MAS_AIO_ZH.cmd"
+    $downloadUrl = "https://get.f0x.in/MAS_AIO_ZH.cmd"
     $fileName = "MAS_AIO_ZH.cmd"
 
     Write-Progress -Activity "下载 MAS 文件..." -Status "请稍等"
