@@ -22,6 +22,8 @@ Windows 和 Office 激活工具 **MAS (Microsoft-Activation-Scripts)** 的汉化
 
 该汉化版本由[**Deepseek-R1**](https://deepseek.com/)进行初步汉化+[**我本人**](https://github.com/yhgzs-111/)校对完成。
 
+**请勿随意修改脚本编码，否则脚本有可能无法正常运行！！！**
+
 由于不可抗力的编码因素，极少数界面提示或注释可能残留轻微乱码，但这完全不影响激活功能及脚本的正常运行。
 
 有关脚本使用的更多信息，请参阅原脚本官网[**massgrave.dev**](https://massgrave.dev/)。
