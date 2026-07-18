@@ -53,7 +53,7 @@ irm https://ghfast.top/https://github.com/yhgzs-111/Microsoft-Activation-Scripts
 
 ### 鸣谢
 
-[**cmontage**](https://github.com/cmontage)为本仓库README提供模板，为本仓库结构和.ps1脚本提供借鉴。
+感谢[**cmontage**](https://github.com/cmontage)的[mas-cn](https://github.com/cmontage/mas-cn)项目为本仓库README提供模板，为本仓库结构和.ps1脚本提供借鉴。本人在此致谢！
 
 ### 官方原版主页 - [https://massgrave.dev/](https://massgrave.dev/)
   
