@@ -1,11 +1,11 @@
 @::汉化 by GitHub@yhzgs-111
 @::汉化脚本Github仓库：github{dot}com/yhgzs-111/Microsoft-Activation-Scripts-ZH
 
-@::请停止反复将此脚本误报。这已经是我第三次因误报而更新脚本。
-@::此脚本中没有任何恶意内容，且每天有成千上万的人使用。
-@::决定标记此脚本的是真人还是被告知标记任何它不喜欢的内容的Copilot？
-@::如果某个活动将此脚本用作掩护，请标记该活动的部分内容，而不是脚本。这已经不是我们第一次因与我们完全无关的活动而遭受附带损害了。
-@::如果您不同意MAS没有恶意，我们希望您能联系我们，解释MAS被认定为“Sonbokli”的原因，我们会进行调查。谢谢。
+@::请不要再反复误报这个脚本了。这已经是我第三次不得不修改脚本以应对这些误报。
+@::这个脚本没有任何恶意行为，并且每天都有成千上万的用户在使用它。
+@::我想知道，做出这些标记决定的到底是真正的人工审核人员，还是 AI 被设定为只要发现它“不喜欢”的内容就直接进行标记？
+@::如果某个恶意活动正在利用这个脚本作为掩护，那么请针对该活动本身进行标记，而不是把责任归咎于本脚本。我们已经不止一次因为与我们完全无关的恶意活动而遭受类似的误伤。
+@::如果您仍然认为MAS是恶意脚本，我们希望您能联系我们，解释 MAS 被认定为“Trojan/Win32.Sonbokli”类型的恶意软件的原因，我们会进行调查，谢谢。
 @set masver=3.12
 @setlocal DisableDelayedExpansion
 @echo off
@@ -434,7 +434,7 @@ goto dk_done
 
 cls
 color 07
-title  Microsoft %blank%Activation %blank%Script %blank%汉化 %blank%by %blank%Github@yhgzs-111 %masver%
+title  Microsoft %blank%Activation %blank%Script %masver% %blank%汉化 %blank%by %blank%Github@yhgzs-111
 if not defined terminal mode 76, 34
 
 if exist "%SystemRoot%\Servicing\Packages\Microsoft-Windows-Server*Edition~*.mum" set _serexist=1
@@ -467,7 +467,8 @@ call :dk_color2 %_Green% "       提示:" %_White% " Windows 10 结束支持后，如需激
 echo:
 echo:
 echo:
-echo:       由 Github@yhgzs-111 借助 DeepSeek 汉化
+call :dk_color2 %_Green% "       由 Github@yhgzs-111 借助 DeepSeek-R1 进行汉化"
+echo:       
 echo:       ______________________________________________________________
 echo:
 echo:                 激活方法:
@@ -498,14 +499,16 @@ echo:
 echo:             [8] 故障排除
 echo:             [E] 附加功能
 echo:             [H] 帮助
+echo:             [G] 汉化版脚本Github仓库
 echo:             [0] 退出
 echo:       ______________________________________________________________
 echo:
-call :dk_color2 %_White% "         " %_Green% "使用键盘选择菜单选项 [1,2,3...E,H,0] :"
-choice /C:12345678EH0 /N
+call :dk_color2 %_White% "         " %_Green% "使用键盘选择菜单选项 [1,2,3...E,H,G,0] :"
+choice /C:12345678EHG0 /N
 set _erl=%errorlevel%
 
-if %_erl%==11 exit /b
+if %_erl%==12 exit /b
+if %_erl%==11 (start https://github.com/yhgzs-111/Microsoft-Activation-Scripts-ZH & goto :MainMenu)
 if %_erl%==10 (start %selfgit% & start %github% & start %mas%troubleshoot & goto :MainMenu)
 if %_erl%==9 goto :Extras
 if %_erl%==8 setlocal & call :troubleshoot      & cls & endlocal & goto :MainMenu
@@ -19214,4 +19217,4 @@ if ($appIdsList.Count -gt 0) {
 
 ::========================================================================================================================================
 ::
-:: 下面空一行
+:: 请勿在下方添加内容，保持空行
