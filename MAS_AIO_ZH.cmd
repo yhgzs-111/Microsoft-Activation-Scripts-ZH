@@ -1,3 +1,6 @@
+@::汉化 by GitHub@yhzgs-111
+@::汉化脚本Github仓库：github{dot}com/yhgzs-111/Microsoft-Activation-Scripts-ZH
+
 @::请停止反复将此脚本误报。这已经是我第三次因误报而更新脚本。
 @::此脚本中没有任何恶意内容，且每天有成千上万的人使用。
 @::决定标记此脚本的是真人还是被告知标记任何它不喜欢的内容的Copilot？
@@ -10,7 +13,7 @@
 
 
 ::  有关命令行开关，请访问 m{}assgrave{dot}dev/command_line_switches
-::  如果您想更好地理解脚本，请阅读单独的文件版本。
+::  如果您想更好地理解脚本，请阅读分离版脚本。
 
 
 
@@ -20,7 +23,7 @@
 ::
 ::   汉化 by GitHub@yhzgs-111
 ::
-::   汉化脚本Github仓库：https://github.com/yhgzs-111/Microsoft-Activation-Scripts-ZH
+::   汉化脚本Github仓库：github{dot}com/yhgzs-111/Microsoft-Activation-Scripts-ZH
 ::
 ::============================================================================
 
