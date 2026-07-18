@@ -30,9 +30,7 @@ Windows 和 Office 激活工具 MAS (Microsoft-Activation-Scripts) 的汉化版�
 
 下载后双击打开即可使用。
 
-下载链接：
-
-https://ghfast.top/https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs/heads/main/MAS_AIO_ZH.cmd
+下载链接：https://ghfast.top/https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs/heads/main/MAS_AIO_ZH.cmd
 
 ### 各个激活方法的特性
 
