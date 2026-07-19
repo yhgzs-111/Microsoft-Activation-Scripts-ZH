@@ -45,7 +45,7 @@ Open **PowerShell** and enter the command below to use.
 
 - **Windows Defender** may occasionally remove it; please disable **real-time protection** before use.
 
-**Mainland China Accelerated**
+**Chinese Mainland Accelerated**
 
 ```
 irm https://get.f0x.in | iex
@@ -57,7 +57,7 @@ irm https://get.f0x.in | iex
 
 After downloading, double-click to open and use. If you cannot download/open it, please disable **Microsoft SmartScreen**.
 
-**Download Link (Mainland China Accelerated):** [MAS_AIO_ZH.cmd](https://get.f0x.in/MAS_AIO_ZH.cmd)
+**Download Link (Chinese Mainland Accelerated):** [MAS_AIO_ZH.cmd](https://get.f0x.in/MAS_AIO_ZH.cmd)
 
 ### Characteristics of Each Activation Method
 
