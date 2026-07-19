@@ -36,14 +36,10 @@ Windows 和 Office 激活工具 **MAS (Microsoft-Activation-Scripts)** 的汉化
 
 - **Windows Defender** 有概率误删，使用前请关闭**实时保护**。
 
-```
-irm https://github.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/raw/refs/heads/main/GETMASZH.ps1 | iex
-```
-
 **中国大陆加速**
 
 ```
-iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.f0x.in | Out-String)
+irm https://get.f0x.in | iex
 ```
 
 #### 离线使用: 
@@ -51,8 +47,6 @@ iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.f0x.in | Out-St
 **注：本脚本大部分功能仍需联网使用**
 
 下载后双击打开即可使用。如无法下载/打开，请关闭**Microsoft SmartScreen**。
-
-**下载链接**：[MAS_AIO_ZH.cmd](https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs/heads/main/MAS_AIO_ZH.cmd)
 
 **下载链接（中国大陆加速）**：[MAS_AIO_ZH.cmd](https://get.f0x.in/MAS_AIO_ZH.cmd)
 
