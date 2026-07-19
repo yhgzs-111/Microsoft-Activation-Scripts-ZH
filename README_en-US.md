@@ -33,7 +33,7 @@ This translation was initially performed by [**Deepseek-R1**](https://deepseek.c
 
 Due to unavoidable encoding factors, a very small number of interface prompts or comments may contain slight garbled text, but this does not affect the activation functionality or the normal operation of the script.
 
-All download links have been accelerated for **mainland China**.
+All download links have been accelerated for **Chinese Mainland**.
 
 For more information and FAQs about using the script, please refer to the original script website: [**massgrave.dev**](https://massgrave.dev/).
 
