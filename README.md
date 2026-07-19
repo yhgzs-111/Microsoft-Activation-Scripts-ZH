@@ -26,7 +26,7 @@ Windows 和 Office 激活工具 **MAS (Microsoft-Activation-Scripts)** 的汉化
 
 由于不可抗力的编码因素，极少数界面提示或注释可能残留轻微乱码，但这完全不影响激活功能及脚本的正常运行。
 
-有关脚本使用的更多信息，请参阅原脚本官网[**massgrave.dev**](https://massgrave.dev/)。
+有关脚本使用的更多信息及常见问题，请参阅原脚本官网[**massgrave.dev**](https://massgrave.dev/)。
 
 ### 使用
 
@@ -43,7 +43,7 @@ irm https://github.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/raw/refs/heads/
 **中国大陆加速**
 
 ```
-irm https://get.f0x.in/ | iex
+iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.f0x.in | Out-String)
 ```
 
 #### 离线使用: 
@@ -52,9 +52,9 @@ irm https://get.f0x.in/ | iex
 
 下载后双击打开即可使用。如无法下载/打开，请关闭**Microsoft SmartScreen**。
 
-**下载链接**：https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs/heads/main/MAS_AIO_ZH.cmd
+**下载链接**：[MAS_AIO_ZH.cmd](https://raw.githubusercontent.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/refs/heads/main/MAS_AIO_ZH.cmd)
 
-**下载链接（中国大陆加速）**：https://get.f0x.in/MAS_AIO_ZH.cmd
+**下载链接（中国大陆加速）**：[MAS_AIO_ZH.cmd](https://get.f0x.in/MAS_AIO_ZH.cmd)
 
 ### 各个激活方法的特性
 
