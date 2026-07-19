@@ -10,6 +10,13 @@
     <a href="https://github.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/blob/main/LICENSE"><img src="https://img.shields.io/github/license/yhgzs-111/Microsoft-Activation-Scripts-ZH?style=for-the-badge" alt="GitHub license"></a>
 </p>
 
+<p align="center">
+  <a href="README.md">简体中文 (中国大陆)</a> |
+  <a href="README_zh-HK.md">繁體中文 (香港)</a> |
+  <a href="README_zh-TW.md">繁體中文 (台灣)</a> |
+  <a href="README_en-US.md">English (US)</a>
+</p>
+
 <hr>
 
 Windows 和 Office 激活工具 **MAS (Microsoft-Activation-Scripts)** 的汉化版，在不改变机器码的情况下可永久激活 (视激活方式而定) 。
