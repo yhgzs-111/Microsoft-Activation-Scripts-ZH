@@ -43,7 +43,7 @@ irm https://github.com/yhgzs-111/Microsoft-Activation-Scripts-ZH/raw/refs/heads/
 **中国大陆加速**
 
 ```
-irm https://get.f0x.in/GETMASZH.ps1 | iex
+irm https://get.f0x.in/ | iex
 ```
 
 #### 离线使用: 
